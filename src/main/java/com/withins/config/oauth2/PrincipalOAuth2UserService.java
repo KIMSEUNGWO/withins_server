@@ -34,11 +34,11 @@ public class PrincipalOAuth2UserService extends DefaultOAuth2UserService {
         Member member = repository.findByUsername(username)
             .orElseGet(() -> repository.save(Member.builder()
                 .username(username)
-                .name(provider.name() + "#" + new Random().ints(1, 10000).limit(1).findFirst().getAsInt())
+                .nickname(provider.name() + "#" + new Random().ints(1, 10000).limit(1).findFirst().getAsInt())
                 .role(Role.USER)
                 .socialLoginInfo(new SocialLoginInfo(provider, convert.getProviderId()))
                 .build())
             );
-        return new PrincipalOAuth2User(member);
+        return new PrincipalDetails(member);
     }
 }

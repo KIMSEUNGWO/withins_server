@@ -1,10 +1,11 @@
 package com.withins.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.withins.config.oauth2.PrincipalDetails;
 import com.withins.config.oauth2.PrincipalOAuth2UserService;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
@@ -15,7 +16,9 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Configuration
 public class SecureConfig {
@@ -27,7 +30,12 @@ public class SecureConfig {
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http, PrincipalOAuth2UserService principalOAuth2UserService) throws Exception {
-        http.csrf(Customizer.withDefaults())
+        http
+            .csrf(csrf -> csrf.disable())
+//            .csrf(Customizer.withDefaults())
+//            .csrf(csrf -> csrf
+//                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
+//            )
 
             .authorizeHttpRequests(request ->
                 request.anyRequest().permitAll()
@@ -49,11 +57,13 @@ public class SecureConfig {
                 .loginProcessingUrl("/login")
                 .defaultSuccessUrl("/")
                 .successHandler((request, response, authentication) -> {
-                    String targetUrl = "";
+
                     try {
                         response.setStatus(HttpServletResponse.SC_OK);
+                        response.setContentType("application/json");
+                        response.setCharacterEncoding("UTF-8");
+
                         PrintWriter writer = response.getWriter();
-                        writer.write(targetUrl);
                         writer.flush();
                         writer.close();
                     } catch (IOException e) {
@@ -66,9 +76,10 @@ public class SecureConfig {
             )
 
             .oauth2Login(login -> login
-                .defaultSuccessUrl("/")
+                .loginPage("/oauth/login")
+                .defaultSuccessUrl("/login/success")
                 .userInfoEndpoint(userInfo -> userInfo
-                .userService(principalOAuth2UserService)
+                    .userService(principalOAuth2UserService)
                 )
                 .failureHandler((request, response, exception) -> {
                     exception.printStackTrace();

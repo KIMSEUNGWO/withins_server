@@ -1,0 +1,836 @@
+{
+  "한국노인인력개발원": {
+    "NOTICE": [
+      {
+        "id": 583614,
+        "title": "[공모전] 2026년 신규 노인일자리 개발을 위한 아이템 공모전",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://www.kordi.or.kr/content.do?mode=view&page=&cid=583614&cmsId=91"
+      },
+      {
+        "id": 585619,
+        "title": "노인일자리 최초 웹드라마 「춘자의 전성시대」본편 공개",
+        "createAt": "2025-05-14T15:00:00.000Z",
+        "link": "https://www.kordi.or.kr/content.do?bid=254&mode=view&page=&cid=585619&cmsId=91"
+      },
+      {
+        "id": 584613,
+        "title": "2025년도 JDC 이음일자리 사업 수행기관 모집 공고",
+        "createAt": "2025-05-11T15:00:00.000Z",
+        "link": "https://www.kordi.or.kr/content.do?bid=254&mode=view&page=&cid=584613&cmsId=91"
+      },
+      {
+        "id": 583615,
+        "title": "노인일자리 최초 웹드라마「춘자의 전성시대」예고편 공개",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://www.kordi.or.kr/content.do?bid=254&mode=view&page=&cid=583615&cmsId=91"
+      },
+      {
+        "id": 583614,
+        "title": "[공모전] 2026년 신규 노인일자리 개발을 위한 아이템 공모전",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://www.kordi.or.kr/content.do?bid=254&mode=view&page=&cid=583614&cmsId=91"
+      }
+    ]
+  },
+  "대한의료사회복지사협회": {
+    "RECRUIT": [
+      {
+        "id": 238635,
+        "title": "[강남세브란스병원] 사회사업팀 의료사회복지사(계약직) 채용 안내",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://kamsw.or.kr/recruit1/238635"
+      },
+      {
+        "id": 238413,
+        "title": "서울대학교치과병원 기간제근무자 채용",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://kamsw.or.kr/recruit1/238413"
+      }
+    ]
+  },
+  "경기도사회복지사협회": {
+    "NOTICE": [
+      {
+        "id": 3534,
+        "title": "[공지]2025년 경기도사회복지사협회 사회복지사 해외연수(호주) 참가자 모집",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://www.ggsw.kr/board/bbs61/3534?s_type=title&s_word=&s_category=%EA%B3%B5%EC%A7%80&page=1"
+      }
+    ]
+  },
+  "오정노인복지관": {
+    "WELFARE": [
+      {
+        "id": 4007,
+        "title": "[뉴스1] 부천시오정노인복지관 '동그라미 선생님' 사업단 참여 인터뷰 \"아이들에게 동화 들려줄 때 오히려 더 살아 있는 것 같아요\"",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250523112448989"
+      }
+    ],
+    "EVENT": [
+      {
+        "id": null,
+        "title": "[오정주간보호센터] 2025년 5월 4주 프로그램 사진",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250523154115250"
+      },
+      {
+        "id": null,
+        "title": "노인일자리 및 사회활동지원사업 아동학대 예방 및 신고무의자 교육 진행",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250523103322123"
+      },
+      {
+        "id": null,
+        "title": "2025년 부천시오정노인종합상담센터 웰다잉 집단상담 운영",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522190340893"
+      },
+      {
+        "id": null,
+        "title": "2025년 노인일자리 및 사회활동지원사업 꿈볶는카페 직무교육 진행",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521182643423"
+      },
+      {
+        "id": null,
+        "title": "2025년 노인일자리 및 사회활동지원사업 시니어문화공연팀 '청춘' 사업단 활동점검",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521180124373"
+      },
+      {
+        "id": null,
+        "title": "2025년 인지기능향상 프로그램 반짝반짝 브레인업 7회기",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521173750657"
+      },
+      {
+        "id": null,
+        "title": "2025년 오정본병원 연계 5월 촉탁의진료",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521173406726"
+      }
+    ]
+  },
+  "원미노인복지관": {
+    "NOTICE": [
+      {
+        "id": 3026,
+        "title": "2025 문화예술교육 지원사업 예술누림 미술 프로그램 참여자 모집",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1005&q_bbscttSn=20250521170142493"
+      }
+    ],
+    "WELFARE": [
+      {
+        "id": 466,
+        "title": "[뉴스팟] 부천시원미노인복지관, 부천시 재향군인회 지원 무료 장수사진 촬영",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250523093329436"
+      },
+      {
+        "id": 465,
+        "title": "[뉴스로] 부천시원미노인복지관, 부천시 재향군인회 지원 무료 장수사진 촬영",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250523091844405"
+      }
+    ],
+    "EVENT": [
+      {
+        "id": null,
+        "title": "2025년 노인맞춤돌봄 특화서비스 원예 프로그램 2집단 10회기 진행",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250523151757987"
+      },
+      {
+        "id": null,
+        "title": "강당 에어컨 수리",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250523141050071"
+      },
+      {
+        "id": null,
+        "title": "케어뱅크 돌봄활동 및 비대면 프로그램 '희망이음' 원예치료 4회기 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522181740171"
+      },
+      {
+        "id": null,
+        "title": "복지정보안내도우미사업 참여자 2차 활동교육",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522153344878"
+      },
+      {
+        "id": null,
+        "title": "원미구청 합동 소방훈련",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522153215698"
+      },
+      {
+        "id": null,
+        "title": "제20회 신규회원교육",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522131327018"
+      },
+      {
+        "id": null,
+        "title": "2025년 노인맞춤돌봄서비스 5주차 평생교육 프로그램 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522112332487"
+      },
+      {
+        "id": null,
+        "title": "경기도 어르신 즐김터 2회기 수업 진행",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521165947275"
+      },
+      {
+        "id": null,
+        "title": "부천시재향군인회와 함께하는 장수사진 촬영",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521153047090"
+      },
+      {
+        "id": null,
+        "title": "브레인기억운동 집단 프로그램 2·3기 진행",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521150812640"
+      },
+      {
+        "id": null,
+        "title": "5월 3주 노인맞춤돌봄서비스 생활지원사 정기회의 진행",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521145143083"
+      },
+      {
+        "id": null,
+        "title": "2025년 노인맞춤돌봄 특화서비스 원예 프로그램 1집단 10회기 진행",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521143656220"
+      }
+    ]
+  },
+  "상동종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 2061,
+        "title": "2025년 관리직(시설관리인) 채용 재공고(3차)",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250519135421946"
+      },
+      {
+        "id": 2060,
+        "title": "2025년 관리직 채용 서류저형 결과 공고",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250519100013788"
+      },
+      {
+        "id": 2059,
+        "title": "2025년 상동종합사회복지관-상명가족아동심리상담연구소 업무협약",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250516114729545"
+      },
+      {
+        "id": 2058,
+        "title": "[상동] 2025년 가정의 달 행사 희망틔움제 (5/31 진행)",
+        "createAt": "2025-05-13T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250514170632501"
+      },
+      {
+        "id": 2057,
+        "title": "[상동] 2025년 4월 업무추진비 사용내역",
+        "createAt": "2025-05-06T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250507133250252"
+      },
+      {
+        "id": 2056,
+        "title": "2025년 관리직(시설관리인) 채용 재공고",
+        "createAt": "2025-05-01T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250502162237138"
+      },
+      {
+        "id": 2055,
+        "title": "2025년 관리직 채용결과 공고",
+        "createAt": "2025-05-01T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250502130115810"
+      }
+    ]
+  },
+  "소사노인복지관": {
+    "WELFARE": [
+      {
+        "id": 422,
+        "title": "[파이낸셜경제]부천시소사노인복지관, '따실봉사단', 1.3세대를 잇는 따뜻한 나눔 실천",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522100108004"
+      },
+      {
+        "id": 421,
+        "title": "[탑뉴스투데이]부천시소사노인복지관, '따실봉사단', 1.3세대를 잇는 따뜻한 나눔 실천",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522100049829"
+      },
+      {
+        "id": 420,
+        "title": "[비전21뉴스]부천시소사노인복지관, '따실봉사단', 1.3세대를 잇는 따뜻한 나눔 실천",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522100027051"
+      },
+      {
+        "id": 419,
+        "title": "[세계로컬타임즈]부천시소사노인복지관, 생생병원과 함께 건강강좌 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522100001865"
+      },
+      {
+        "id": 418,
+        "title": "[비건뉴스]부천시소사노인복지관, 생생병원과 함께 건강강좌 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095942653"
+      },
+      {
+        "id": 417,
+        "title": "[대한뉴스방송]부천시소사노인복지관, 생생병원과 함께 건강강좌 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095924008"
+      },
+      {
+        "id": 416,
+        "title": "[뉴스로]부천시소사노인복지관, 생생병원과 함께 건강강좌 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095901813"
+      },
+      {
+        "id": 415,
+        "title": "[경기중앙신문]부천시소사노인복지관, 생생병원과 함께 건강강좌 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095830798"
+      },
+      {
+        "id": 414,
+        "title": "[온나라타임즈]부천시소사노인복지관 「MG희망나눔온정나눔행사」기부금 전달식 참석",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095755972"
+      },
+      {
+        "id": 413,
+        "title": "[시사일보]부천시소사노인복지관 「MG희망나눔온정나눔행사」기부금 전달식 참석",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1006&q_bbscttSn=20250522095725643"
+      }
+    ],
+    "EVENT": [
+      {
+        "id": null,
+        "title": "【건강생활지원사업】 2025년 5월 한방진료",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250522113515313"
+      },
+      {
+        "id": null,
+        "title": "[지역사회보호사업] 5월 정기 외식지원 진행(엉터리 무한대패 소사역점)",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://senior.bucheon4u.kr/senior/user/bbs/BD_selectBbs.do?q_domnCode=2&q_bbsCode=1008&q_bbscttSn=20250521134846274"
+      }
+    ]
+  },
+  "대산종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 1588,
+        "title": "[공고] 대산종합사회복지관 DASH 엔터테인먼트 K-POP 강사 모집 공고",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250516180545176"
+      },
+      {
+        "id": 1587,
+        "title": "2025년 하계 사회복지현장실습생 모집",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250516091603406"
+      },
+      {
+        "id": 1586,
+        "title": "[공고] 대산종합사회복지관 교육복지 미디어 강사 최종합격자 공고",
+        "createAt": "2025-05-08T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250509181054970"
+      },
+      {
+        "id": 1585,
+        "title": "2025년 4월 대산종합사회복지관 후원에 감사드립니다.",
+        "createAt": "2025-05-08T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250509172321121"
+      },
+      {
+        "id": 1584,
+        "title": "대산종합사회복지관 한국어 토픽(TOPIK) 강사 최종 합격자 공고",
+        "createAt": "2025-05-08T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250509133711115"
+      },
+      {
+        "id": 1583,
+        "title": "[공고] 대산종합사회복지관 한국어 토픽(TOPIK) 강사 서류전형 합격자 발표",
+        "createAt": "2025-05-06T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250507175344607"
+      },
+      {
+        "id": 1582,
+        "title": "[공고] 대산종합사회복지관 교육복지 미디어 강사 1차 서류 합격자 공고",
+        "createAt": "2025-05-01T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250502103336129"
+      }
+    ]
+  },
+  "소사본종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 1216,
+        "title": "2025년 하계 사회복지현장실습생 모집공고문",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250521172736764"
+      }
+    ],
+    "WELFARE": [
+      {
+        "id": null,
+        "title": "[가족복지] 꿈디자이너 보호자 교육 및 자조모임 진행",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250522103337524"
+      }
+    ]
+  },
+  "춘의종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 4102,
+        "title": "춘의종합사회복지관 2025년 하계 방학 실습생 모집",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250519102214403"
+      },
+      {
+        "id": 4101,
+        "title": "춘의종합사회복지관 무료급식소 조리사 채용 모집 공고",
+        "createAt": "2025-05-12T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250513182024576"
+      }
+    ],
+    "WELFARE": [
+      {
+        "id": null,
+        "title": "[복지3팀] 2025년 건강돌봄학교 춘의시니어파티",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250519154130060"
+      },
+      {
+        "id": null,
+        "title": "춘의꽃띠정원사 텃밭정원 가꾸기",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250519093644437"
+      },
+      {
+        "id": null,
+        "title": "[복지2팀] 어버이날 행사 진행",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250508142854981"
+      }
+    ]
+  },
+  "심곡동종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 1351,
+        "title": "2025년 2차 추가경정예산 공고",
+        "createAt": "2025-05-19T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250520145635227"
+      },
+      {
+        "id": 1350,
+        "title": "심곡동종합사회복지관 2차 운영위원회 결과보고",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1005&q_bbscttSn=20250508100201428"
+      }
+    ],
+    "WELFARE": [
+      {
+        "id": null,
+        "title": "[복지3팀] 2025년 건강돌봄학교 춘의시니어파티",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250519154130060"
+      },
+      {
+        "id": null,
+        "title": "춘의꽃띠정원사 텃밭정원 가꾸기",
+        "createAt": "2025-05-18T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250519093644437"
+      },
+      {
+        "id": null,
+        "title": "[복지2팀] 어버이날 행사 진행",
+        "createAt": "2025-05-07T15:00:00.000Z",
+        "link": "https://welfare.bucheon4u.kr/welfare/user/bbs/BD_selectBbs.do?q_domnCode=1&q_bbsCode=1008&q_bbscttSn=20250508142854981"
+      }
+    ]
+  },
+  "인천종합사회복지관": {
+    "NOTICE": [
+      {
+        "id": 556,
+        "title": "스타렉스(73두8663) 차량 처분(매각) 입찰 결과 공고",
+        "createAt": "2025-05-13T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www25&num=3796&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 555,
+        "title": "인천종합사회복지관 2025년 하계 사회복지현장실습생 모집 공고",
+        "createAt": "2025-05-06T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www25&num=3786&page=&keyfield=&key=&bCate="
+      }
+    ],
+    "WELFARE": [
+      {
+        "id": 3795,
+        "title": "인종) 5월 직원 생일파티",
+        "createAt": "2025-05-13T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www28&num=3795&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 3794,
+        "title": "인종) 4월 직원 생일파티",
+        "createAt": "2025-05-13T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www28&num=3794&page=&keyfield=&key=&bCate="
+      }
+    ],
+    "EVENT": [
+      {
+        "id": 3805,
+        "title": "[통합돌봄지원과] \"따뜻한 손 길\" : 후원물품(수세미)..",
+        "createAt": "2025-05-19T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www37&num=3805&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 3802,
+        "title": "2025년 찾아가는 복지시범 특화사업 이웃기웃 (화양연화) 오리엔..",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www37&num=3802&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 3801,
+        "title": "합동결혼식 \"서:약\" 2회기 부부개별상담 진행",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www37&num=3801&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 3800,
+        "title": "제33회 한마음 합동결혼식 \"서:약\" 1회기 오리엔테이..",
+        "createAt": "2025-05-15T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www37&num=3800&page=&keyfield=&key=&bCate="
+      },
+      {
+        "id": 3793,
+        "title": "교육문화 아동이벤트데이 진행",
+        "createAt": "2025-05-13T15:00:00.000Z",
+        "link": "http://www.icwelfare.or.kr/main/sub.html?Mode=view&boardID=www37&num=3793&page=&keyfield=&key=&bCate="
+      }
+    ]
+  },
+  "인천광역시장애인종합복지관": {
+    "NOTICE": [
+      {
+        "id": 1928,
+        "title": "[지역복지팀]4~5월 수공예동아리 활동소식",
+        "createAt": "2025-05-23T01:12:58.426Z",
+        "link": "https://icjb.or.kr/bbs/board.php?bo_table=bbs_0402&wr_id=1928"
+      },
+      {
+        "id": 1927,
+        "title": "[지역복지팀]5월 울타리가족봉사단 활동 소식",
+        "createAt": "2025-05-21T07:12:58.445Z",
+        "link": "https://icjb.or.kr/bbs/board.php?bo_table=bbs_0402&wr_id=1927"
+      }
+    ]
+  },
+  "서울시사회복시자협회": {
+    "NOTICE": [
+      {
+        "id": 2826,
+        "title": "복지국가시민위원회 주거권, 건강권 관련 복지국가 정책 신문광고 모금",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/notice/869634"
+      }
+    ],
+    "RECRUIT": [
+      {
+        "id": 18558,
+        "title": "[서울특별시자립지원전담기관] 자립지원전담기관 채용(일반직 2명, 탈고립은둔전담인력 2명)",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869762"
+      },
+      {
+        "id": 18557,
+        "title": "'살림의원 재택의료센터' 사회복지사 채용 공고(7개월 계약직)",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869754"
+      },
+      {
+        "id": 18556,
+        "title": "영중종합사회복지관 계약직 사회복지사 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869750"
+      },
+      {
+        "id": 18555,
+        "title": "[정릉종합사회복지관] 안전관리인 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869745"
+      },
+      {
+        "id": 18554,
+        "title": "[정릉종합사회복지관] 조리사 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869741"
+      },
+      {
+        "id": 18553,
+        "title": "[채용] 유락종합사회복지관 청소년방과후아카데미 담임 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869664"
+      },
+      {
+        "id": 18552,
+        "title": "한국YWCA 사회복지법인  행정 및 사무 담당 활동가 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869685"
+      },
+      {
+        "id": 18551,
+        "title": "서대문해벗누리 직원채용공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869677"
+      },
+      {
+        "id": 18550,
+        "title": "<긴급> 송파발달장애인평생교육센터 계약직(육아휴직 대체:21개월) 교사 채용",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869604"
+      },
+      {
+        "id": 18549,
+        "title": "[채용공고] 「서울시사회복지관협회」 사무국장 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869592"
+      },
+      {
+        "id": 18548,
+        "title": "[강사 채용] 상도은빛복지관 사회교육(뜨개질, 칼림바, 팝송영어 외) 강사 모집",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869591"
+      },
+      {
+        "id": 18547,
+        "title": "[구로구] 화원종합사회복지관 교육문화 노래교실 강사 채용 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869585"
+      },
+      {
+        "id": 18546,
+        "title": "성민복지관 직원 채용 공고 (경영지원과 경영기획팀 팀원 / 회계 등 행정업무 / 정규직)",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869561"
+      },
+      {
+        "id": 18545,
+        "title": "[공고] 길음종합사회복지관 무료급식사업 조리사 채용 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869546"
+      },
+      {
+        "id": 18544,
+        "title": "[공고] 길음종합사회복지관 마을동행팀 대리 채용 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869541"
+      },
+      {
+        "id": 18543,
+        "title": "한울지역정신건강센터 아산사회복지재단 지원 기획사업 전담인력 채용 [재공고]",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869530"
+      },
+      {
+        "id": 18542,
+        "title": "[끌어올림] 서울특별시립여성보호센터 사회복지사(신입) 채용공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869523"
+      },
+      {
+        "id": 18541,
+        "title": "원광장애인종합복지관 최중증 발달장애인 통합돌봄서비스 사업관리자 공개 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869513"
+      },
+      {
+        "id": 18540,
+        "title": "서울SOS어린이마을 직원 채용 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869507"
+      },
+      {
+        "id": 18539,
+        "title": "역삼재가노인데이케어센터 사회복지사 팀장 구인",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869499"
+      },
+      {
+        "id": 18538,
+        "title": "서초구립한우리정보문화센터(장애인복지관) 마을이음 사업담당 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869456"
+      },
+      {
+        "id": 18537,
+        "title": "성동장애인종합복지관 조리사 채용 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869465"
+      },
+      {
+        "id": 18536,
+        "title": "[수시채용] 한국혈액암협회 2025년 3차 일반직 사원 / 2명",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869440"
+      },
+      {
+        "id": 18535,
+        "title": "도담하우스 조리사 모집 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869405"
+      },
+      {
+        "id": 18534,
+        "title": "구로데이케어센터 계약직 사회복지사 채용 공고",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869342"
+      },
+      {
+        "id": 18533,
+        "title": "장애인활동지원사업 전담인력 채용공고",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869325"
+      },
+      {
+        "id": 18532,
+        "title": "등촌7종합사회복지관 조리사 채용공고",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869248"
+      },
+      {
+        "id": 18531,
+        "title": "생활재활교사 채용 재공고",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869236"
+      },
+      {
+        "id": 18530,
+        "title": "서울시립학대피해아동쉼터 꿈자람 생활복지사 채용공고 (보육사)",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869227"
+      },
+      {
+        "id": 18529,
+        "title": "[공고] 한빛종합사회복지관 북한이탈주민사업팀 정신건강전문인력 채용",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/recruit/869217"
+      }
+    ],
+    "EVENT": [
+      {
+        "id": 12302,
+        "title": "2025년 서대문해벗누리 2학기 하계방학 사회복지 실습생 모집 공고",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://sasw.or.kr/event/869202"
+      }
+    ]
+  },
+  "미추홀장애인종합복지관": {
+    "NOTICE": [
+      {
+        "id": 2192,
+        "title": "복지관 장애인활동지원사 (5월) 실습 추첨 결과 안내",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://michurc.or.kr/bbs/board.php?bo_table=0202&wr_id=25047"
+      }
+    ],
+    "RECRUIT": [
+      {
+        "id": 882,
+        "title": "미추홀장애인종합복지관 지역연계팀 사회복지사(육아휴직 대체인력) 채용  면접전형 결과 공고",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://michurc.or.kr/bbs/board.php?bo_table=0207&wr_id=886"
+      }
+    ]
+  },
+  "인천광역시사회복지사협회": {
+    "RECRUIT": [
+      {
+        "id": 20994,
+        "title": "학교폭력 피해학생 및 가족 치유 회복 지원사업 <우리아이행복프로젝트> 지역센터 운영자 모집 공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20994&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20993,
+        "title": "요양보호사 모집합니다.",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20993&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20992,
+        "title": "우리들의집 상담평가요원 채용 연장공고",
+        "createAt": "2025-05-22T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20992&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20990,
+        "title": "생활재활교사 채용공고(중증장애인거주시설_하늘채)",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20990&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20987,
+        "title": "계양해링턴어린이집 보육교사 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20987&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20986,
+        "title": "인천광역시청년미래센터 시설장 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20986&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20985,
+        "title": "강화종합재가센터 정규직 요양보호사 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20985&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20984,
+        "title": "부평종합재가센터 정규직 요양보호사 채용",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20984&page=1&code=jobinfo#sub_bbs"
+      },
+      {
+        "id": 20980,
+        "title": "인천 발달장애인 긴급돌봄센터 돌봄인력 채용공고 (여자개소)",
+        "createAt": "2025-05-20T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/employment/jobinfo.php?ptype=view&idx=20980&page=1&code=jobinfo#sub_bbs"
+      }
+    ],
+    "EVENT": [
+      {
+        "id": 20989,
+        "title": "[복권위원회, 인천광역시] 중소기업 장애인 일자리 지원사업 안내",
+        "createAt": "2025-05-21T15:00:00.000Z",
+        "link": "https://www.iasw.or.kr/board/onsite.php?ptype=view&idx=20989&page=1&code=onsite#sub_bbs"
+      }
+    ]
+  }
+}

@@ -28,9 +28,6 @@ public class FrontStaticConfig implements WebMvcConfigurer {
             @Override
             protected Resource getResource(String resourcePath, Resource location) throws IOException {
                 Resource requestedResource = location.createRelative(resourcePath);
-                URI uri = requestedResource.getURI();
-                System.out.println("uri = " + uri);
-                System.out.println(requestedResource.exists() && requestedResource.isReadable());
                 if (requestedResource.exists() && requestedResource.isReadable()) {
                     return requestedResource;
                 } else {
