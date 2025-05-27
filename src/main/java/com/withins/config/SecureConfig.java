@@ -1,9 +1,7 @@
 package com.withins.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.withins.config.jwt.CookieBearerTokenResolver;
-import com.withins.config.jwt.CustomJwtAuthenticationConverter;
-import com.withins.config.jwt.JwtTokenProvider;
+import com.withins.config.jwt.*;
 import com.withins.config.jwt.formLogin.JsonAuthenticationFilter;
 import com.withins.config.jwt.formLogin.OAuth2AuthenticationSuccessHandler;
 import com.withins.config.oauth2.PrincipalDetailsService;
@@ -19,8 +17,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.security.oauth2.client.OAuth2AuthorizedClientService;
-import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
@@ -38,6 +34,8 @@ public class SecureConfig {
     private final ObjectMapper objectMapper;
     private final JwtTokenProvider jwtTokenProvider;
     private final PrincipalDetailsService principalDetailsService;
+    private final JwtTokenClearingLogoutHandler jwtTokenClearingLogoutHandler;
+    private final JsonLogoutSuccessHandler jsonLogoutSuccessHandler;
 
     @Bean
     BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -45,7 +43,7 @@ public class SecureConfig {
     }
 
     @Bean
-    SecurityFilterChain securityFilterChain(HttpSecurity http, PrincipalOAuth2UserService principalOAuth2UserService, InMemoryClientRegistrationRepository clientRegistrationRepository, OAuth2AuthorizedClientService authorizedClientService) throws Exception {
+    SecurityFilterChain securityFilterChain(HttpSecurity http, PrincipalOAuth2UserService principalOAuth2UserService) throws Exception {
 
         AuthenticationManagerBuilder authManagerBuilder = http.getSharedObject(AuthenticationManagerBuilder.class);
         authManagerBuilder.userDetailsService(principalDetailsService).passwordEncoder(bCryptPasswordEncoder());
@@ -111,7 +109,10 @@ public class SecureConfig {
             )
 
             .logout(logout -> logout
-                .addLogoutHandler(new HeaderWriterLogoutHandler(new ClearSiteDataHeaderWriter(ClearSiteDataHeaderWriter.Directive.COOKIES)))
+                .logoutUrl("/api/logout")
+                .deleteCookies("accessToken", "refreshToken", "JSESSIONID")
+                .addLogoutHandler(jwtTokenClearingLogoutHandler)
+                .logoutSuccessHandler(jsonLogoutSuccessHandler)
             )
 
             .exceptionHandling(exceptions -> exceptions

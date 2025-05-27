@@ -1,7 +1,6 @@
 package com.withins.config.jwt;
 
 import io.jsonwebtoken.Jwts;
-import jakarta.servlet.http.Cookie;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseCookie;
 import org.springframework.security.core.GrantedAuthority;
@@ -20,26 +19,25 @@ public class JwtTokenProvider {
     private final SecretKey secretKey;
     private final int JWT_ACCESS_TIME = 10;
     private final int JWT_REFRESH_TIME = 60 * 60 * 24;
-
-//    public String generateAccessToken(TokenId tokenId, long memberId,
-//                                      Collection<? extends GrantedAuthority> authorities) {
-//        return createToken(tokenId, memberId, authorities, JWT_ACCESS_TIME);
-//    }
-//    public String generateRefreshToken(TokenId tokenId, long memberId,
-//                                       Collection<? extends GrantedAuthority> authorities) {
-//        return createToken(tokenId, memberId, authorities, JWT_REFRESH_TIME);
-//    }
+    private final String ACCESS_TOKEN = "accessToken";
+    private final String REFRESH_TOKEN = "refreshToken";
 
     public ResponseCookie generateAccessToken(TokenId tokenId, long memberId,
                                       Collection<? extends GrantedAuthority> authorities) {
         String token = createToken(tokenId, memberId, authorities, JWT_ACCESS_TIME);
-        return createCookie("accessToken", token, JWT_ACCESS_TIME, "/", SameSite.STRICT);
+        return createCookie(ACCESS_TOKEN, token, JWT_ACCESS_TIME, "/", SameSite.STRICT);
     }
-
     public ResponseCookie generateRefreshToken(TokenId tokenId, long memberId,
                                               Collection<? extends GrantedAuthority> authorities) {
         String token = createToken(tokenId, memberId, authorities, JWT_REFRESH_TIME);
-        return createCookie("refreshToken", token, JWT_REFRESH_TIME, "/auth/refresh", SameSite.STRICT);
+        return createCookie(REFRESH_TOKEN, token, JWT_REFRESH_TIME, "/auth/refresh", SameSite.STRICT);
+    }
+
+    public ResponseCookie removeAccessToken() {
+        return createCookie(ACCESS_TOKEN, null, 0, "/",  SameSite.STRICT);
+    }
+    public ResponseCookie removeRefreshToken() {
+        return createCookie(REFRESH_TOKEN, null, 0, "/auth/refresh", SameSite.STRICT);
     }
 
     private ResponseCookie createCookie(String cookieName, String token, int expiration, String path, SameSite sameSite) {
