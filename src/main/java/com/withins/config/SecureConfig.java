@@ -87,7 +87,7 @@ public class SecureConfig {
 
             .oauth2Login(login -> login
                 .loginPage("/oauth/login")
-                .defaultSuccessUrl("/login/success")
+                .defaultSuccessUrl("/")
                 .userInfoEndpoint(userInfo -> userInfo
                     .userService(principalOAuth2UserService)
                 )

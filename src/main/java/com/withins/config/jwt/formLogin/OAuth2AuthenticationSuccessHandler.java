@@ -35,6 +35,6 @@ public class OAuth2AuthenticationSuccessHandler implements AuthenticationSuccess
         response.addHeader(HttpHeaders.SET_COOKIE, accessToken.toString());
         response.addHeader(HttpHeaders.SET_COOKIE, refreshToken.toString());
 
-        response.sendRedirect("/login/success");
+        response.sendRedirect("/");
     }
 }

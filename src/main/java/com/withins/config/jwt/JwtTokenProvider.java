@@ -17,7 +17,7 @@ import java.util.UUID;
 public class JwtTokenProvider {
 
     private final SecretKey secretKey;
-    private final int JWT_ACCESS_TIME = 10;
+    private final int JWT_ACCESS_TIME = 60;
     private final int JWT_REFRESH_TIME = 60 * 60 * 24;
     private final String ACCESS_TOKEN = "accessToken";
     private final String REFRESH_TOKEN = "refreshToken";
