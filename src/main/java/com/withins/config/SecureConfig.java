@@ -1,27 +1,43 @@
 package com.withins.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.withins.config.oauth2.PrincipalDetails;
+import com.withins.config.jwt.CookieBearerTokenResolver;
+import com.withins.config.jwt.CustomJwtAuthenticationConverter;
+import com.withins.config.jwt.JwtTokenProvider;
+import com.withins.config.jwt.formLogin.JsonAuthenticationFilter;
+import com.withins.config.jwt.formLogin.OAuth2AuthenticationSuccessHandler;
+import com.withins.config.oauth2.PrincipalDetailsService;
 import com.withins.config.oauth2.PrincipalOAuth2UserService;
-import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpStatus;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.oauth2.client.OAuth2AuthorizedClientService;
+import org.springframework.security.oauth2.client.registration.InMemoryClientRegistrationRepository;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.HttpStatusEntryPoint;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.logout.HeaderWriterLogoutHandler;
 import org.springframework.security.web.header.writers.ClearSiteDataHeaderWriter;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Configuration
+@RequiredArgsConstructor
 public class SecureConfig {
+
+    private final ObjectMapper objectMapper;
+    private final JwtTokenProvider jwtTokenProvider;
+    private final PrincipalDetailsService principalDetailsService;
 
     @Bean
     BCryptPasswordEncoder bCryptPasswordEncoder() {
@@ -29,16 +45,28 @@ public class SecureConfig {
     }
 
     @Bean
-    SecurityFilterChain securityFilterChain(HttpSecurity http, PrincipalOAuth2UserService principalOAuth2UserService) throws Exception {
+    SecurityFilterChain securityFilterChain(HttpSecurity http, PrincipalOAuth2UserService principalOAuth2UserService, InMemoryClientRegistrationRepository clientRegistrationRepository, OAuth2AuthorizedClientService authorizedClientService) throws Exception {
+
+        AuthenticationManagerBuilder authManagerBuilder = http.getSharedObject(AuthenticationManagerBuilder.class);
+        authManagerBuilder.userDetailsService(principalDetailsService).passwordEncoder(bCryptPasswordEncoder());
+        AuthenticationManager authenticationManager = authManagerBuilder.build();
+
+        // FormLogin 유저 -> JWT 토큰 발급
+        JsonAuthenticationFilter jsonAuthenticationFilter = new JsonAuthenticationFilter(objectMapper, jwtTokenProvider);
+        jsonAuthenticationFilter.setAuthenticationManager(authenticationManager);
+
         http
-            .csrf(csrf -> csrf.disable())
+            .addFilterAt(jsonAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
+            .csrf(AbstractHttpConfigurer::disable)
 //            .csrf(Customizer.withDefaults())
 //            .csrf(csrf -> csrf
 //                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
 //            )
 
-            .authorizeHttpRequests(request ->
-                request.anyRequest().permitAll()
+            .authorizeHttpRequests(request -> request
+                .requestMatchers("/api/user/**").authenticated()
+                .requestMatchers("/auth/**").authenticated()
+                .anyRequest().permitAll()
             )
 
             .cors(cors -> cors
@@ -46,33 +74,17 @@ public class SecureConfig {
             )
 
             .sessionManagement(session -> session
-                .invalidSessionUrl("/login?invalid")
-                .maximumSessions(1)
-                .maxSessionsPreventsLogin(true)
-                .expiredUrl("/login?expired")
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
             )
 
             .formLogin(login -> login
                 .loginPage("/login")
-                .loginProcessingUrl("/login")
+                .loginProcessingUrl("/api/login")
                 .defaultSuccessUrl("/")
-                .successHandler((request, response, authentication) -> {
+            )
 
-                    try {
-                        response.setStatus(HttpServletResponse.SC_OK);
-                        response.setContentType("application/json");
-                        response.setCharacterEncoding("UTF-8");
-
-                        PrintWriter writer = response.getWriter();
-                        writer.flush();
-                        writer.close();
-                    } catch (IOException e) {
-                        System.out.println("e.getMessage() = " + e.getMessage());
-                    }
-                })
-                .failureHandler((request, response, exception) -> {
-                    System.out.println("exception = " + exception.getMessage());
-                })
+            .logout(logout -> logout
+                .addLogoutHandler(new HeaderWriterLogoutHandler(new ClearSiteDataHeaderWriter(ClearSiteDataHeaderWriter.Directive.COOKIES)))
             )
 
             .oauth2Login(login -> login
@@ -81,16 +93,32 @@ public class SecureConfig {
                 .userInfoEndpoint(userInfo -> userInfo
                     .userService(principalOAuth2UserService)
                 )
+                // OAuth2 유저 -> JWT 토큰 발급
+                .successHandler(new OAuth2AuthenticationSuccessHandler(jwtTokenProvider))
                 .failureHandler((request, response, exception) -> {
                     exception.printStackTrace();
                     response.sendRedirect("/login?error");
                 })
             )
 
+            .oauth2Client(Customizer.withDefaults())
+
+            .oauth2ResourceServer(server -> server
+                .bearerTokenResolver(new CookieBearerTokenResolver())
+                .jwt(jwt -> jwt
+                    .jwtAuthenticationConverter(new CustomJwtAuthenticationConverter())
+                )
+            )
+
             .logout(logout -> logout
                 .addLogoutHandler(new HeaderWriterLogoutHandler(new ClearSiteDataHeaderWriter(ClearSiteDataHeaderWriter.Directive.COOKIES)))
-//                .deleteCookies("JSESSIONID", "remember-me")
             )
+
+            .exceptionHandling(exceptions -> exceptions
+                .authenticationEntryPoint(new HttpStatusEntryPoint(HttpStatus.UNAUTHORIZED))
+            )
+
+            .authenticationManager(authenticationManager)
         ;
         return http.build();
     }
@@ -107,7 +135,4 @@ public class SecureConfig {
         source.registerCorsConfiguration("/**", configuration);
         return source;
     }
-
-
-
 }

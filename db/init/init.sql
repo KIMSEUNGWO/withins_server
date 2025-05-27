@@ -55,7 +55,7 @@ CREATE TABLE member (
                         password VARCHAR(255) NULL,
                         nickname VARCHAR(255) NOT NULL ,
                         role ENUM('USER', 'ADMIN') NOT NULL ,
-                        provider ENUM('KAKAO'),
+                        provider ENUM('LOCAL' 'KAKAO'),
                         providerId VARCHAR(255)
 ) ENGINE=InnoDB
   DEFAULT CHARSET=utf8mb4

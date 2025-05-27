@@ -11,4 +11,5 @@ public class VueController implements ErrorController {
     public String index() {
         return "index.html";
     }
+
 }
